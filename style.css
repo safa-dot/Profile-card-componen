@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+body {
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Kumbh Sans;
+    font-weight: 10px;
+    background-color:  hsl(185, 75%, 39%);
+    background-image: url("./images/bg-pattern-bottom.svg");
+
+}
+.container {
+    background-color: white;
+    position: absolute;
+    height: 370px;
+    width: 320px;
+    transform: translateY(50%);
+    bottom: 50%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0%
+} 
+#top {
+    position: absolute;
+    border-radius: 20px 20px 0 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    
+    
+}
+#image {
+    position: absolute; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; 
+    border: solid 4px white; 
+    top: 20%;
+    left: 35%;
+    
+}
+ul { 
+    position: absolute;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 25px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-right: 40px;
+    padding-top: 25px;
+    border-top: solid 1px hsl(0, 0%, 59%);
+    
+    
+    
+
+}
+h3 {
+    
+    margin-top: 200px;
+    line-height: 30px;
+}
+span {
+    color: hsl(0, 0%, 59%);
+    font-size: 13px;
+    
+}
+ .attribution {
+     position: absolute;
+     bottom: 0;
+ }
